@@ -11,3 +11,8 @@ limit = 1000
 lang = "english"
 
 tweets = query_tweets(" corona virus", begindate = begin_date, enddate = end_date, limit = limit, lang = lang)
+
+**PLACE THE SCRIPT INSIDE A DATAFRAME AS SEEN BELOW**
+
+df = pd. dataframe(t._dict_for t in tweets) 
+
